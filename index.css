@@ -1,5 +1,9 @@
 .card_box{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     
+}
+.card{
+    width: 25%;
 }
