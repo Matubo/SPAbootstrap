@@ -7,7 +7,15 @@
 
 .card{
     width: 25vw;
+    height: 35vh;
 }
-.card-image img{
+/* .card-image img{
     height:10vh;
+} */
+.card_background{
+    height:13vh;
+    width: 100%;
+    background-image: url(grass-field.jpg);
+    background-position: center;
+    background-size: cover;
 }
