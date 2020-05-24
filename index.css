@@ -1,9 +1,13 @@
 .card_box{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    
+    justify-content: space-around;   
+    height: 35vh;
 }
+
 .card{
-    width: 25%;
+    width: 25vw;
+}
+.card-image img{
+    height:10vh;
 }
