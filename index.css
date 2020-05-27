@@ -1,11 +1,28 @@
-
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#my_preloader{
+    z-index: 1000;
+    display: fixed;
+    background-color: white;
+    height: 100vh;
+    align-items: center;
+}
 .carousel_img{
 height:70vh;
 }
-/* .carousel-caption{
-color:black;
-} */
 .text{
     background-color: #0000008a;
 
+}
+.jumbotron{
+    text-align: center;
+    margin-bottom: 0;
+}
+#card_box{
+    background-color: #e9ecef;
+    width: 100vw;
+    padding: 20px;
+    justify-content:space-around;
 }
