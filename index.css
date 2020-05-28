@@ -48,7 +48,7 @@ border-color:#e9ecef;
     background-color:#e9ecef;
 }
 .my_carousel img{
-    width: 50vw;
+    height: 50vh;
     position: absolute;
     left:50vw;
     top:30vh;
