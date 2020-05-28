@@ -26,3 +26,35 @@ height:70vh;
     padding: 20px;
     justify-content:space-around;
 }
+.needs-validation{
+    margin:30px;
+}
+.needs-validation button{
+border-color:#e9ecef;
+}
+.my_text h1{
+    text-align: center;
+    margin:30px;
+}
+.my_text_bottom{
+    justify-content:space-around;
+    background-color: #e9ecef;
+    padding: 30px;
+}
+.my_carousel{
+    height: 60vh;
+    width: 100vw;
+    position: relative;
+    background-color:#e9ecef;
+}
+.my_carousel img{
+    width: 50vw;
+    position: absolute;
+    left:50vw;
+    top:30vh;
+    transform:translate(-50%,-50%);
+    
+}
+.text-uppercase{
+    color:#e9ecef;
+}
