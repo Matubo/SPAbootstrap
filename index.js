@@ -10,42 +10,14 @@ window.onload=function() {
 
 let carusel_items=document.getElementsByClassName("my_carousel_img");
 let carusel_arr_marker=[0,1,2,3,4,5,6];
+let carusel_interval;
 function start_carusel(){
-carusel_items[0].style.cssText=`
-transform:translate(-95%,-50%);
-height: 40vh;
-z-index:1097;
-`;
-carusel_items[1].style.cssText=`
-transform:translate(-85%,-50%);
-height: 43vh;
-z-index:1098;
-`;
-carusel_items[2].style.cssText=`
-transform:translate(-70%,-50%);
-height: 45vh;
-z-index:1099;
-`;
-carusel_items[3].style.cssText=`
-transform:translate(-50%,-50%);
-height: 50vh;
-z-index:1100;
-`;
-carusel_items[4].style.cssText=`
-transform:translate(-30%,-50%);
-height: 45vh;
-z-index:1099;
-`;
-carusel_items[5].style.cssText=`
-transform:translate(-15%,-50%);
-height: 43vh;
-z-index:1098;
-`;
-carusel_items[6].style.cssText=`
-transform:translate(-5%,-50%);
-height: 40vh;
-z-index:1097;
-`;
+    my_carusel_transform();
+    start_carusel_interval();
+}
+function start_carusel_interval(){
+    clearInterval(carusel_interval);
+    carusel_interval=setInterval(()=>{my_carusel_next()},6000);
 }
 function my_carusel_next(){
     carusel_arr_marker.push(carusel_arr_marker.shift()); 
