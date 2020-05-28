@@ -20,11 +20,13 @@ function start_carusel_interval(){
     carusel_interval=setInterval(()=>{my_carusel_next()},6000);
 }
 function my_carusel_next(){
+    start_carusel_interval();
     carusel_arr_marker.push(carusel_arr_marker.shift()); 
     console.log(carusel_arr_marker);
     my_carusel_transform()
 }
 function my_carusel_previous(){
+    start_carusel_interval();
     carusel_arr_marker.unshift(carusel_arr_marker.pop());
     console.log(carusel_arr_marker);
     my_carusel_transform()
