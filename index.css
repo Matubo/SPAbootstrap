@@ -53,7 +53,7 @@ border-color:#e9ecef;
     left:50vw;
     top:30vh;
     transform:translate(-50%,-50%);
-    
+    transition: all 0.5s;
 }
 .text-uppercase{
     color:#e9ecef;

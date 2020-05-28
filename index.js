@@ -11,7 +11,7 @@ window.onload=function() {
 let carusel_items=document.getElementsByClassName("my_carousel_img");
 let carusel_arr_marker=[0,1,2,3,4,5,6];
 function start_carusel(){
-    carusel_items[0].style.cssText=`
+carusel_items[0].style.cssText=`
 transform:translate(-95%,-50%);
 height: 40vh;
 z-index:1097;
@@ -48,6 +48,16 @@ z-index:1097;
 `;
 }
 function my_carusel_next(){
+    carusel_arr_marker.push(carusel_arr_marker.shift()); 
+    console.log(carusel_arr_marker);
+    my_carusel_transform()
+}
+function my_carusel_previous(){
+    carusel_arr_marker.unshift(carusel_arr_marker.pop());
+    console.log(carusel_arr_marker);
+    my_carusel_transform()
+    }
+function my_carusel_transform(){
     carusel_items[carusel_arr_marker[0]].style.cssText=`
     transform:translate(-95%,-50%);
     height: 40vh;
@@ -84,6 +94,3 @@ function my_carusel_next(){
     z-index:1097;
     `;
 }
-function my_carusel_previous(){
-    console.log("next");
-    }
