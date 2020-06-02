@@ -1,66 +1,68 @@
-body{
-    overflow-x: hidden;
-    overflow-y: hidden;
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
-#my_preloader{
-    z-index: 1000;
-    display: fixed;
-    background-color: white;
-    height: 100vh;
-    align-items: center;
+#my_preloader {
+  z-index: 1000;
+  display: fixed;
+  background-color: white;
+  height: 100vh;
+  align-items: center;
 }
-.carousel_img{
-height:70vh;
+.carousel_img {
+  height: 70vh;
 }
-.text{
-    background-color: #0000008a;
-
+.text {
+  background-color: #0000008a;
 }
-.jumbotron{
-    text-align: center;
-    margin-bottom: 0;
+.jumbotron {
+  text-align: center;
+  margin-bottom: 0;
 }
-.heading{
-    text-align: center;
-    margin:30px;
+.heading {
+  text-align: center;
+  margin: 30px;
 }
-.table{
-    text-align: center;
-    width:90%;
-    margin:5%;
+.table {
+  text-align: center;
+  width: 90%;
+  margin: 5%;
 }
-#card_box{
-    background-color: #e9ecef;
-    width: 100vw;
-    padding: 20px;
-    justify-content:space-around;
+#card_box {
+  background-color: #e9ecef;
+  width: 100vw;
+  padding: 20px;
+  justify-content: space-around;
 }
-.needs-validation{
-    margin:30px;
+.needs-validation {
+  width:90vw;
+  margin:30px;
+  margin-right: 5vw;
+  margin-left: 5vw;
 }
-.needs-validation button{
-border-color:#e9ecef;
+.needs-validation button {
+  border-color: #e9ecef;
 }
-.my_text_bottom{
-    justify-content:space-around;
-    background-color: #e9ecef;
-    padding: 30px;
+.my_text_bottom {
+  justify-content: space-around;
+  background-color: #e9ecef;
+  padding: 30px;
 }
-.my_carousel{
-    height: 60vh;
-    width: 100vw;
-    position: relative;
-    background-color:#e9ecef;
+.my_carousel {
+  height: 60vh;
+  width: 100vw;
+  position: relative;
+  background-color: #e9ecef;
 }
-.my_carousel img{
-    height: 50vh;
-    position: absolute;
-    left:50vw;
-    top:30vh;
-    transform:translate(-50%,-50%);
-    transition: all 1s;
+.my_carousel img {
+  height: 50vh;
+  position: absolute;
+  left: 50vw;
+  top: 30vh;
+  transform: translate(-50%, -50%);
+  transition: all 1s;
 }
-.text-uppercase{
-    color:#e9ecef;
-    text-align: center;
+.text-uppercase {
+  color: #e9ecef;
+  text-align: center;
 }
