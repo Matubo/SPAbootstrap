@@ -9,8 +9,19 @@ body {
   height: 100vh;
   align-items: center;
 }
+#first_carusel_img {
+  background-image: url("img/carusel_1.jpg");
+}
+#second_carusel_img {
+  background-image: url("img/carusel_2.jpg");
+}
+#third_carusel_img {
+  background-image: url("img/carusel_3.jpg");
+}
 .carousel_img {
   height: 70vh;
+  background-position: center;
+  background-size: cover;
 }
 .text {
   background-color: #0000008a;
