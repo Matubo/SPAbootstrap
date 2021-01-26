@@ -1,4 +1,4 @@
-# second_project
+# SPAbootstrap
 
 SPA сверстанный с использованием Bootstrap.
 Карусель для фото, в конце страницы - написана самостоятельно и не использует Bootstrap.
@@ -7,7 +7,7 @@ SPA сверстанный с использованием Bootstrap.
 ### Ссылка:
  - [matubo.github.io/second_project/](https://matubo.github.io/second_project/)
 
-# second_project
+# SPAbootstrap
 
 SPA were laid out using Bootstrap.
 The photo carousel at the end of the page is self-written and does not use Bootstrap.
