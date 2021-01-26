@@ -60,16 +60,17 @@ body {
   padding: 30px;
 }
 .my_carousel {
-  height: 60vh;
+  height: 45vw;
   width: 100vw;
   position: relative;
   background-color: #e9ecef;
 }
 .my_carousel img {
-  height: 50vh;
+  height: auto;
+  width: 40vw;
   position: absolute;
   left: 50vw;
-  top: 30vh;
+  top: 20vw;
   transform: translate(-50%, -50%);
   transition: all 1s;
 }

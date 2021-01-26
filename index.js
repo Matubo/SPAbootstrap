@@ -11,7 +11,7 @@ window.onload = function () {
 let float_form = document.getElementsByClassName("float_form");
 
 let carusel_items = document.getElementsByClassName("my_carousel_img");
-let carusel_marker_arr = [0, 1, 2, 3, 4, 5, 6];
+let carusel_marker_arr = [0, 1, 2, 3, 4];
 let carusel_interval;
 
 let buttonState = 0;
@@ -52,43 +52,31 @@ function my_carusel_previous() {
 function my_carusel_transform() {
   carusel_items[carusel_marker_arr[0]].style.cssText = `
     transform:translate(-95%,-50%);
-    height: 40vh;
+    width: 40vw;
     opacity: 0.7;
     z-index:1097;
     `;
   carusel_items[carusel_marker_arr[1]].style.cssText = `
-    transform:translate(-85%,-50%);
-    height: 43vh;
-    opacity: 0.8;
-    z-index:1098;
-    `;
-  carusel_items[carusel_marker_arr[2]].style.cssText = `
     transform:translate(-70%,-50%);
-    height: 45vh;
+    width: 45vw;
     opacity: 0.9;
     z-index:1099;
     `;
-  carusel_items[carusel_marker_arr[3]].style.cssText = `
+  carusel_items[carusel_marker_arr[2]].style.cssText = `
     transform:translate(-50%,-50%);
-    height: 50vh;
+    width: 50vw;
     opacity: 1;
     z-index:1100;
     `;
-  carusel_items[carusel_marker_arr[4]].style.cssText = `
+  carusel_items[carusel_marker_arr[3]].style.cssText = `
     transform:translate(-30%,-50%);
-    height: 45vh;
+    width: 45vw;
     opacity: 0.9;
     z-index:1099;
     `;
-  carusel_items[carusel_marker_arr[5]].style.cssText = `
-    transform:translate(-15%,-50%);
-    height: 43vh;
-    opacity: 0.8;
-    z-index:1098;
-    `;
-  carusel_items[carusel_marker_arr[6]].style.cssText = `
+  carusel_items[carusel_marker_arr[4]].style.cssText = `
     transform:translate(-5%,-50%);
-    height: 40vh;
+    width: 40vw;
     opacity: 0.7;
     z-index:1097;
     `;
