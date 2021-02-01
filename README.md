@@ -5,7 +5,7 @@ SPA сверстанный с использованием Bootstrap.
 При этом не выпадает из общей верстки.
 
 ### Ссылка:
- - [matubo.github.io/second_project/](https://matubo.github.io/second_project/)
+- [matubo.github.io/SPAbootstrap/](https://matubo.github.io/SPAbootstrap/)
 
 # SPAbootstrap
 
@@ -14,4 +14,4 @@ The photo carousel at the end of the page is self-written and does not use Boots
 At the same time it does not fall out of the general layout.
 
 ### Link:
- - [matubo.github.io/second_project/ ](https://matubo.github.io/second_project/)
+ - [matubo.github.io/SPAbootstrap/](https://matubo.github.io/SPAbootstrap/)
